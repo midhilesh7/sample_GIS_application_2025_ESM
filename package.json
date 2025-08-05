@@ -1,0 +1,15 @@
+{
+  "name": "gis__esm",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "node build.js clean",
+    "build:dev": "node build.js",
+    "build:prod": "node build.js --prod"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.8"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
